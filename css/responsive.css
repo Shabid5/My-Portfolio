@@ -1,15 +1,61 @@
-/* @media (max-width: 1104px) {} */
+@media (min-width: 320px) and (max-width: 479.98px) {
 
-
-
-@media (max-width: 991.98px) {
-    .max-width {
-        padding: 0 50px;
+    .dl,
+    ol,
+    ul {
+        margin-top: 0 !important;
     }
+
+    .home {
+        padding: 60px 50px 20px 0 !important;
+        min-height: 0px !important;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 16px !important;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 24px !important;
+        font-weight: 700 !important;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 16px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .home .home-content a {
+        font-size: 14px !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+
+
+    .nav-bar .logo a {
+        margin-left: 0;
+        font-size: 24px !important;
+    }
+
+    .nav-bar.sticky {
+        padding-top: 10px !important;
+
+    }
+
+    .nav-bar {
+        padding-top: 10px !important;
+    }
+
+    .max-width {
+        padding: 0 30px !important;
+    }
+
     .menu-btn {
 
         display: block !important;
         z-index: 1;
+        margin-left: 80px;
     }
 
     .menu-btn i.active::before {
@@ -30,7 +76,7 @@
 
     .nav-bar .menu.active {
         left: 0;
-        top:0;
+        top: 0;
     }
 
     .nav-bar .menu li {
@@ -39,47 +85,335 @@
 
     .nav-bar .menu li a {
         display: inline-block;
-        margin: 20px 0;
+        margin: 20px 0 !important;
         font-size: 25px;
         color: white !important;
     }
-    .nav-bar .menu li a:hover{
+
+    .nav-bar .menu li a:hover {
         color: crimson !important;
     }
 
-    .about-content .row .col-lg-5 .my-photo img {
-        height: 70% !important;
-        width: 70% !important;
-        margin-left: 15% !important;
+    .about,
+    .services,
+    .skill,
+    .teams,
+    .contact,
+    .work {
+        font-family: 'poppins', sans-serif;
+        padding: 15px 0 !important;
+    }
 
+    .title {
+        margin: 0 !important;
+        font-size: 22px !important;
+    }
+
+    section {
+        padding: 0 !important;
+    }
+
+    section .title::after {
+        bottom: -24px !important;
+        font-size: 14px !important;
+        padding: 0 !important;
+        border-radius: 3px;
+        width: 115px;
+    }
+
+    section .title::before {
+        height: 5px !important;
+        width: 140px !important;
+        border-radius: 10px;
+    }
+
+    .about-content .row .col-lg-5 {
+        margin-top: 30px;
+    }
+
+    .about-content .row .col-lg-5 .my-photo img {
+        height: 100% !important;
+        width: 100%;
+        margin-top: 5px !important;
+    }
+
+    .my-details {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .my-details .text {
+        margin-top: 10px;
+        font-size: 12px !important;
+    }
+
+    .my-details p {
+        font-size: 10px !important;
+    }
+
+    .my-details a {
+        font-size: 12px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        padding: 2px 2px !important;
+    }
+
+    .teams .title::after {
+        font-size: 14px !important;
+    }
+
+    .services-content {
+        margin-top: 48px !important;
     }
 
     .services-content .inside {
-        margin-bottom: 15px;
+        margin-top: -12px !important;
     }
 
-    .skill .skills-content .right .bars .info .col-lg-6 {
-        width: 50% !important;
+    .services-content .inside .box {
+        padding: 0 !important;
     }
 
-    .icons .row .col-lg-11 {
-        width: 95% !important;
+    .services-content .inside .box i {
+        font-size: 20px !important;
+        margin-top: 10px;
+        margin-bottom: 0 !important;
     }
 
-    .icons .row .col-lg-1 {
-        width: 5% !important;
+    .services-content .inside .box .text {
+        font-size: 20px !important;
+        margin-bottom: 2px !important;
     }
 
+    .services-content .inside .box p {
+        font-size: 10px !important;
+        padding: 0 1px 10px 1px;
+    }
+
+    .skill .skills-content .left .text {
+        font-size: 16px !important;
+        font-weight: 600;
+        margin-bottom: 5px !important;
+        margin-top: 35px !important;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .skill .skills-content .left p {
+        font-size: 10px !important;
+    }
+
+    .skills-content .left a {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+        padding: 2px 2px !important;
+    }
+
+    .skill .skills-content .right .info .row span {
+        font-size: 12px !important;
+    }
+
+    .skill .skills-content .right .bars .info {
+        margin-bottom: 2px !important;
+    }
+
+    .skill .skills-content .right .bars {
+        margin: 0 !important;
+    }
+
+    .skill .skills-content .right .line {
+        height: 5px !important;
+    }
+
+    .work .works-content .left .text {
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+        margin-top: 30px !important;
+    }
+
+    .work .works-content .left p {
+        font-size: 10px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .work .works-content .right .info .row span {
+        font-size: 12px !important;
+        color: crimson;
+    }
+
+    .work .works-content .right a {
+        color: crimson;
+    }
+
+    .work .works-content .right a:hover {
+        color: white !important;
+    }
+
+    .teams .carousell .cards {
+        padding: 15px 15px !important;
+
+        margin-top: 30px !important;
+    }
+
+    .teams .carousell .cards img {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    .teams .carousell .cards .text {
+        font-size: 15px !important;
+        margin: 7px 0 5px 0 !important;
+    }
+
+    .teams .carousell .cards p {
+        font-size: 10px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .owl-dots {
+        margin-top: 5px !important;
+    }
+
+    .contact-content {
+        margin-top: 40px;
+    }
+
+    .contact-content .left .text,
+    .contact-content .right .text {
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left p {
+        font-size: 10px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .contact-content .left .icons {
+        margin: 10px 0 !important;
+    }
+
+    .contact-content .left .icons .row {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left .icons .row i {
+        font-size: 16px !important;
+        margin: 10px 0 0 -10px !important;
+    }
+
+    .contact-content .left .icons .row .info .head {
+        font-size: 14px !important;
+    }
+
+    .contact-content .left .icons .row .info .sub-title {
+        font-size: 12px;
+    }
+
+    .contact-content .right form .field input,
+    .contact-content .right form .field textarea {
+        height: 100% !important;
+        font-size: 12px !important;
+        font-weight: 700;
+    }
+
+    .contact-content .right form .field textarea {
+        height: 50px !important;
+        padding-top: 0 !important;
+        resize: none;
+    }
+
+    .contact-content .right form .button button {
+        height: 100%;
+        width: 100%;
+        border: 2px solid crimson;
+        background: crimson;
+        color: white;
+        font-size: 14px !important;
+    }
+
+    .contact-content .right form .button {
+        height: 30px !important;
+        width: 120px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .ftext {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .ftext span {
+        font-size: 10px;
+    }
+
+    .footer {
+        padding: 5px 0 !important;
+    }
 }
 
+@media (min-width: 480px) and (max-width: 575.98px) {
 
-@media (max-width: 947.98px) {
+    .dl,
+    ol,
+    ul {
+        margin-top: 0 !important;
+    }
 
+    .home {
+        padding: 60px 50px 20px 0 !important;
+        min-height: 0px !important;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 20px !important;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 32px !important;
+        font-weight: 700 !important;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 20px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .home .home-content a {
+        font-size: 16px !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .nav-bar .logo a {
+        margin-left: 0;
+        font-size: 24px !important;
+    }
+
+    .nav-bar.sticky {
+        padding-top: 10px !important;
+
+    }
+
+    .nav-bar {
+        padding-top: 10px !important;
+    }
+
+    .max-width {
+        padding: 0 30px !important;
+    }
 
     .menu-btn {
 
         display: block !important;
         z-index: 1;
+        margin-left: 80px;
     }
 
     .menu-btn i.active::before {
@@ -88,18 +422,18 @@
 
     .nav-bar .menu {
         position: fixed;
-        height: 100vh;
+        height: 100%;
         width: 100%;
         left: -100%;
         top: 0;
         background: black;
         text-align: center;
-        /* padding-top: 80px; */
         transition: all 0.3s ease;
     }
 
     .nav-bar .menu.active {
         left: 0;
+        top: 0;
     }
 
     .nav-bar .menu li {
@@ -108,85 +442,990 @@
 
     .nav-bar .menu li a {
         display: inline-block;
-        margin: 20px 0;
+        margin: 20px 0 !important;
         font-size: 25px;
-
+        color: white !important;
     }
 
-    .home .home-content .text-2 {
-        font-size: 70px !important;
-
+    .nav-bar .menu li a:hover {
+        color: crimson !important;
     }
 
-    .home .home-content .text-3 {
-        font-size: 35px !important;
+    .about,
+    .services,
+    .skill,
+    .teams,
+    .contact,
+    .work {
+        font-family: 'poppins', sans-serif;
+        padding: 15px 0 !important;
     }
 
-    .home .home-content a {
-        font-size: 23px !important;
-        padding: 10px 30px !important;
+    .title {
+        margin: 0 !important;
+        font-size: 30px !important;
+    }
+
+    section {
+        padding: 0 !important;
+    }
+
+    section .title::after {
+        bottom: -24px !important;
+        font-size: 16px !important;
+        padding: 0 !important;
+        border-radius: 3px;
+        width: 115px;
+    }
+
+    section .title::before {
+        height: 5px !important;
+        width: 140px !important;
+        border-radius: 10px;
+    }
+
+    .about-content .row .col-lg-5 {
+        margin-top: 50px;
     }
 
     .about-content .row .col-lg-5 .my-photo img {
-        height: 70% !important;
-        width: 70% !important;
-        margin-left: 15% !important;
+        height: 100% !important;
+        width: 100%;
+        margin-top: 5px !important;
+    }
+
+    .my-details {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .my-details .text {
+        margin-top: 15px;
+        font-size: 14px !important;
+    }
+
+    .my-details p {
+        font-size: 12px !important;
+    }
+
+    .my-details a {
+        font-size: 14px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        padding: 2px 2px !important;
+    }
+
+    .teams .title::after {
+        font-size: 16px !important;
+    }
+
+    .services-content {
+        margin-top: 48px !important;
+    }
+
+    .services-content .inside {
+        margin-top: -12px !important;
+    }
+
+    .services-content .inside .box {
+        padding: 0 !important;
+    }
+
+    .services-content .inside .box i {
+        font-size: 20px !important;
+        margin-top: 10px;
+        margin-bottom: 0 !important;
+    }
+
+    .services-content .inside .box .text {
+        font-size: 20px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .services-content .inside .box p {
+        font-size: 12px !important;
+        padding: 0 1px 10px 1px;
+    }
+
+    .skill .skills-content .left .text {
+        font-size: 16px !important;
+        font-weight: 600;
+        margin-bottom: 5px !important;
+        margin-top: 35px !important;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .skill .skills-content .left p {
+        font-size: 12px !important;
+    }
+
+    .skills-content .left a {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+        padding: 2px 2px !important;
+    }
+
+    .skill .skills-content .right .info .row span {
+        font-size: 14px !important;
+    }
+
+    .skill .skills-content .right .bars .info {
+        margin-bottom: 2px !important;
+    }
+
+    .skill .skills-content .right .bars {
+        margin: 0 !important;
+    }
+
+    .skill .skills-content .right .line {
+        height: 5px !important;
+    }
+
+    .work .works-content .left .text {
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+        margin-top: 30px !important;
+    }
+
+    .work .works-content .left p {
+        font-size: 12px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .work .works-content .right .info .row span {
+        font-size: 14px !important;
+        color: crimson;
+    }
+
+    .work .works-content .right a {
+        color: crimson;
+    }
+
+    .work .works-content .right a:hover {
+        color: white !important;
+    }
+
+    .teams .carousell .cards {
+        padding: 15px 15px !important;
+
+        margin-top: 30px !important;
+    }
+
+    .teams .carousell .cards img {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    .teams .carousell .cards .text {
+        font-size: 15px !important;
+        margin: 7px 0 5px 0 !important;
+    }
+
+    .teams .carousell .cards p {
+        font-size: 12px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .owl-dots {
+        margin-top: 5px !important;
+    }
+
+    .contact-content {
+        margin-top: 40px;
+    }
+
+    .contact-content .left .text,
+    .contact-content .right .text {
+        font-size: 16px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left p {
+        font-size: 12px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .contact-content .left .icons {
+        margin: 10px 0 !important;
+    }
+
+    .contact-content .left .icons .row {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left .icons .row i {
+        font-size: 16px !important;
+        margin: 10px 0 0 -10px !important;
+    }
+
+    .contact-content .left .icons .row .info .head {
+        font-size: 14px !important;
+    }
+
+    .contact-content .left .icons .row .info .sub-title {
+        font-size: 12px;
+    }
+
+    .contact-content .right form .field input,
+    .contact-content .right form .field textarea {
+        height: 100% !important;
+        font-size: 12px !important;
+        font-weight: 700;
+    }
+
+    .contact-content .right form .field textarea {
+        height: 50px !important;
+        padding-top: 0 !important;
+        resize: none;
+    }
+
+    .contact-content .right form .button button {
+        height: 100%;
+        width: 100%;
+        border: 2px solid crimson;
+        background: crimson;
+        color: white;
+        font-size: 14px !important;
+    }
+
+    .contact-content .right form .button {
+        height: 30px !important;
+        width: 120px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     }
 
+    .ftext {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .ftext span {
+        font-size: 14px;
+    }
+
+    .footer {
+        padding: 5px !important;
+    }
 }
 
-@media (max-width: 690px) {
-    .max-width {
-        padding: 0 23px;
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+    .dl,
+    ol,
+    ul {
+        margin-top: 0 !important;
+    }
+
+    .home {
+        padding: 60px 50px 20px 0 !important;
+        min-height: 0px !important;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 30px !important;
     }
 
     .home .home-content .text-2 {
-        font-size: 60px !important;
-
+        font-size: 36px !important;
+        font-weight: 700 !important;
     }
 
     .home .home-content .text-3 {
-        font-size: 32px !important;
+        font-size: 24px !important;
+        margin-bottom: 10px !important;
+    }
+
+    .home .home-content a {
+        font-size: 18px !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .nav-bar .logo a {
+        margin-left: 0;
+        font-size: 24px !important;
+    }
+
+    .nav-bar.sticky {
+        padding-top: 10px !important;
+
+    }
+
+    .nav-bar {
+        padding-top: 10px !important;
+    }
+
+    .max-width {
+        padding: 0 30px !important;
+    }
+
+    .menu-btn {
+
+        display: block !important;
+        z-index: 1;
+        margin-left: 80px;
+    }
+
+    .menu-btn i.active::before {
+        content: "\f00d";
+    }
+
+    .nav-bar .menu {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .nav-bar .menu.active {
+        left: 0;
+        top: 0;
+    }
+
+    .nav-bar .menu li {
+        display: block !important;
+    }
+
+    .nav-bar .menu li a {
+        display: inline-block;
+        margin: 20px 0 !important;
+        font-size: 25px;
+        color: white !important;
+    }
+
+    .nav-bar .menu li a:hover {
+        color: crimson !important;
+    }
+
+    .about,
+    .services,
+    .skill,
+    .teams,
+    .contact,
+    .work {
+        font-family: 'poppins', sans-serif;
+        padding: 15px 0 !important;
+    }
+
+    .title {
+        margin: 0 !important;
+        font-size: 34px !important;
+    }
+
+    section {
+        padding: 0 !important;
+    }
+
+    section .title::after {
+        bottom: -24px !important;
+        font-size: 16px !important;
+        padding: 0 !important;
+        border-radius: 3px;
+        width: 115px;
+    }
+
+    section .title::before {
+        height: 5px !important;
+        width: 140px !important;
+        border-radius: 10px;
+    }
+
+    .about-content .row .col-lg-5 {
+        margin-top: 50px;
+    }
+
+    .about-content .row .col-lg-5 .my-photo img {
+        height: 100% !important;
+        width: 100%;
+        margin-top: 5px !important;
+    }
+
+    .my-details {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .my-details .text {
+        margin-top: 15px;
+        font-size: 18px !important;
+    }
+
+    .my-details p {
+        font-size: 14px !important;
+    }
+
+    .my-details a {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        padding: 2px 2px !important;
+    }
+
+    .teams .title::after {
+        font-size: 16px !important;
+    }
+
+    .services-content {
+        margin-top: 48px !important;
+    }
+
+    .services-content .inside {
+        margin-top: -12px !important;
+    }
+
+    .services-content .inside .box {
+        padding: 0 !important;
+    }
+
+    .services-content .inside .box i {
+        font-size: 20px !important;
+        margin-top: 10px;
+        margin-bottom: 0 !important;
+    }
+
+    .services-content .inside .box .text {
+        font-size: 20px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .services-content .inside .box p {
+        font-size: 14px !important;
+        padding: 0 1px 10px 1px;
+    }
+
+    .skill .skills-content .left .text {
+        font-size: 18px !important;
+        font-weight: 600;
+        margin-bottom: 5px !important;
+        margin-top: 35px !important;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .skill .skills-content .left p {
+        font-size: 14px !important;
+    }
+
+    .skills-content .left a {
+        font-size: 18px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+        padding: 2px 2px !important;
+    }
+
+    .skill .skills-content .right .info .row span {
+        font-size: 14px !important;
+    }
+
+    .skill .skills-content .right .bars .info {
+        margin-bottom: 2px !important;
+    }
+
+    .skill .skills-content .right .bars {
+        margin: 0 !important;
+    }
+
+    .skill .skills-content .right .line {
+        height: 5px !important;
+    }
+
+    .work .works-content .left .text {
+        font-size: 18px !important;
+        margin-bottom: 5px !important;
+        margin-top: 30px !important;
+    }
+
+    .work .works-content .left p {
+        font-size: 14px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .work .works-content .right .info .row span {
+        font-size: 14px !important;
+        color: crimson;
+    }
+
+    .work .works-content .right a {
+        color: crimson;
+    }
+
+    .work .works-content .right a:hover {
+        color: white !important;
+    }
+
+    .teams .carousell .cards {
+        padding: 15px 15px !important;
+        margin-top: 30px !important;
+    }
+
+    .teams .carousell .cards img {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    .teams .carousell .cards .text {
+        font-size: 18px !important;
+        margin: 7px 0 5px 0 !important;
+    }
+
+    .teams .carousell .cards p {
+        font-size: 14px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .owl-dots {
+        margin-top: 5px !important;
+    }
+
+    .contact-content {
+        margin-top: 40px;
+    }
+
+    .contact-content .left .text,
+    .contact-content .right .text {
+        font-size: 18px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left p {
+        font-size: 14px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .contact-content .left .icons {
+        margin: 10px 0 !important;
+    }
+
+    .contact-content .left .icons .row {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left .icons .row i {
+        font-size: 24px !important;
+        margin: 12px 0 0 -10px !important;
+    }
+
+    .contact-content .left .icons .row .info .head {
+        font-size: 14px !important;
+    }
+
+    .contact-content .left .icons .row .info .sub-title {
+        font-size: 14px;
+    }
+
+    .contact-content .right form .field input,
+    .contact-content .right form .field textarea {
+        height: 100% !important;
+        font-size: 14px !important;
+        font-weight: 700;
+    }
+
+    .contact-content .right form .field textarea {
+        height: 50px !important;
+        padding-top: 0 !important;
+        resize: none;
+    }
+
+    .contact-content .right form .button button {
+        height: 100%;
+        width: 100%;
+        border: 2px solid crimson;
+        background: crimson;
+        color: white;
+        font-size: 16px !important;
+    }
+
+    .contact-content .right form .button {
+        height: 30px !important;
+        width: 140px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
+    .ftext {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .ftext span {
+        font-size: 16px;
+    }
+
+    .footer {
+        padding: 5px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .dl,
+    ol,
+    ul {
+        margin-top: 0 !important;
+    }
+
+    .home {
+        padding: 80px 50px 60px 0 !important;
+        min-height: 0px !important;
+    }
+
+    .home .home-content .text-1 {
+        font-size: 40px !important;
+    }
+
+    .home .home-content .text-2 {
+        font-size: 36px !important;
+        font-weight: 700 !important;
+    }
+
+    .home .home-content .text-3 {
+        font-size: 28px !important;
+        margin-bottom: 10px !important;
     }
 
     .home .home-content a {
         font-size: 20px !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .nav-bar .logo a {
+        margin-left: 0;
+        font-size: 36px !important;
+    }
+
+    .nav-bar.sticky {
+        padding-top: 10px !important;
 
     }
 
-}
-
-@media (max-width: 556px) {
-
-    .home .home-content .text-2 {
-        font-size: 50px !important;
-
+    .nav-bar {
+        padding-top: 10px !important;
     }
 
-    .home .home-content .text-3 {
-        font-size: 27px !important;
-    }
-}
-
-@media (max-width: 490px) {
-
-    .home .home-content .text-2 {
-        font-size: 40px !important;
-
+    .max-width {
+        padding: 0 30px !important;
     }
 
-    .home .home-content .text-3 {
-        font-size: 23px !important;
-    }
-}
+    .menu-btn {
 
-@media (max-width: 451.98px) {
+        display: block !important;
+        z-index: 1;
+        margin-left: 80px;
+    }
+
+    .menu-btn i.active::before {
+        content: "\f00d";
+    }
+
+    .nav-bar .menu {
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        top: 0;
+        background: black;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .nav-bar .menu.active {
+        left: 0;
+        top: 0;
+    }
+
+    .nav-bar .menu li {
+        display: block !important;
+    }
+
+    .nav-bar .menu li a {
+        display: inline-block;
+        margin: 20px 0 !important;
+        font-size: 25px;
+        color: white !important;
+    }
+
+    .nav-bar .menu li a:hover {
+        color: crimson !important;
+    }
+
+    .about,
+    .services,
+    .skill,
+    .teams,
+    .contact,
+    .work {
+        font-family: 'poppins', sans-serif;
+        padding: 20px 0 !important;
+    }
+
+    .title {
+        margin: 0 !important;
+        font-size: 36px !important;
+    }
+
+    section {
+        padding: 0 !important;
+    }
 
     section .title::after {
+        bottom: -24px !important;
+        font-size: 16px !important;
+        padding: 0 !important;
+        border-radius: 3px;
+        width: 115px;
+    }
 
+    section .title::before {
+        height: 5px !important;
+        width: 140px !important;
+        border-radius: 10px;
+    }
+
+    .about-content .row .col-lg-5 {
+        margin-top: 50px;
+    }
+    .about-content .row .col-lg-5 .my-photo img {
+        height: 100% !important;
+        width: 100%;
+        margin-top: 5px !important;
+    }
+    .my-details {
+        margin-left: 0 !important;
+        margin-top: 0 !important;
+    }
+
+    .my-details .text {
+        margin-top: 15px;
+        font-size: 20px !important;
+    }
+
+    .my-details p {
+        font-size: 16px !important;
+    }
+
+    .my-details a {
+        font-size: 16px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        padding: 2px 2px !important;
+    }
+
+    .teams .title::after {
+        font-size: 16px !important;
+    }
+
+    .services-content {
+        margin-top: 48px !important;
+    }
+
+    .services-content .inside {
+        margin-top: -12px !important;
+    }
+
+    .services-content .inside .box {
+        padding: 0 !important;
+    }
+
+    .services-content .inside .box i {
+        font-size: 20px !important;
+        margin-top: 10px;
+        margin-bottom: 0 !important;
+    }
+
+    .services-content .inside .box .text {
+        font-size: 22px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .services-content .inside .box p {
+        font-size: 16px !important;
+        padding: 0 1px 10px 1px;
+    }
+
+    .skill .skills-content .left .text {
+        font-size: 20px !important;
+        font-weight: 600;
+        margin-bottom: 5px !important;
+        margin-top: 35px !important;
+        font-family: 'poppins', sans-serif;
+    }
+
+    .skill .skills-content .left p {
+        font-size: 16px !important;
+    }
+
+    .skills-content .left a {
+        font-size: 20px !important;
+        font-weight: 400 !important;
+        padding: 0 !important;
+        margin-top: 0 !important;
+        margin-bottom: 10px;
+        padding: 2px 2px !important;
+    }
+
+    .skill .skills-content .right .info .row span {
+        font-size: 16px !important;
+    }
+
+    .skill .skills-content .right .bars .info {
+        margin-bottom: 2px !important;
+    }
+
+    .skill .skills-content .right .bars {
+        margin: 0 !important;
+    }
+
+    .skill .skills-content .right .line {
+        height: 5px !important;
+    }
+
+    .work .works-content .left .text {
+        font-size: 20px !important;
+        margin-bottom: 5px !important;
+        margin-top: 30px !important;
+    }
+
+    .work .works-content .left p {
+        font-size: 16px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .work .works-content .right .info .row span {
+        font-size: 16px !important;
+        color: crimson;
+    }
+
+    .work .works-content .right a {
+        color: crimson;
+    }
+
+    .work .works-content .right a:hover {
+        color: white !important;
+    }
+
+    .teams .carousell .cards {
+        padding: 15px 15px !important;
+        margin-top: 30px !important;
+    }
+
+    .teams .carousell .cards img {
+        height: 80px !important;
+        width: 80px !important;
+    }
+
+    .teams .carousell .cards .text {
+        font-size: 20px !important;
+        margin: 7px 0 5px 0 !important;
+    }
+
+    .teams .carousell .cards p {
+        font-size: 16px !important;
+        margin-bottom: 0 !important;
+    }
+
+    .owl-dots {
+        margin-top: 5px !important;
+    }
+
+    .contact-content {
+        margin-top: 40px;
+    }
+
+    .contact-content .left .text,
+    .contact-content .right .text {
+        font-size: 20px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left p {
+        font-size: 16px !important;
+        margin-bottom: 2px !important;
+    }
+
+    .contact-content .left .icons {
+        margin: 10px 0 !important;
+    }
+
+    .contact-content .left .icons .row {
+        margin-bottom: 5px !important;
+    }
+
+    .contact-content .left .icons .row i {
+        font-size: 24px !important;
+        margin: 12px 0 0 -10px !important;
+    }
+
+    .contact-content .left .icons .row .info .head {
+        font-size: 16px !important;
+    }
+
+    .contact-content .left .icons .row .info .sub-title {
+        font-size: 16px;
+    }
+
+    .contact-content .right form .field input,
+    .contact-content .right form .field textarea {
+        height: 100% !important;
+        font-size: 14px !important;
+        font-weight: 700;
+    }
+
+    .contact-content .right form .field textarea {
+        height: 50px !important;
+        padding-top: 0 !important;
+        resize: none;
+    }
+
+    .contact-content .right form .button button {
+        height: 100%;
+        width: 100%;
+        border: 2px solid crimson;
+        background: crimson;
+        color: white;
         font-size: 18px !important;
-        bottom: -30px !important;
+    }
+
+    .contact-content .right form .button {
+        height: 30px !important;
+        width: 150px !important;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
 
     }
+
+    .ftext {
+        margin-left: 0 !important;
+        text-align: center;
+    }
+
+    .ftext span {
+        font-size: 18px;
+    }
+
+    .footer {
+        padding: 5px !important;
+    }
 }
+
+/* 
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+} */

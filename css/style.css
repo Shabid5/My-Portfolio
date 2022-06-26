@@ -8,6 +8,12 @@
     text-decoration: none !important;
 }
 
+.dl,
+ol,
+ul {
+    margin-top: 15px;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -22,7 +28,7 @@ img {
 
 .max-width {
     max-width: 1300px;
-    padding: 0 80px;
+    padding: 0 40px;
     margin: 0 auto;
 }
 
@@ -89,11 +95,7 @@ img {
 /* .nav-bar.sticky .logo a {
     font-style: italic;
 } */
-.dl,
-ol,
-ul {
-    margin-top: 15px;
-}
+
 
 .nav-bar .menu li {
     list-style: none;
@@ -134,18 +136,18 @@ ul {
 .home {
     background: url("../images/1.jpg") center no-repeat;
     background-size: cover;
-    padding: 250px 0;
+    padding: 150px 0 120px 0;
     color: white;
     min-height: 500px;
     font-family: "ubuntu", sans-serif;
 }
 
 .home .home-content .text-1 {
-    font-size: 27px;
+    font-size: 28px;
 }
 
 .home .home-content .text-2 {
-    font-size: 75px;
+    font-size: 72px;
     font-weight: 600;
     margin-left: -3px;
 }
@@ -166,7 +168,7 @@ ul {
     color: white;
     font-size: 25px;
     padding: 12px 36px;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 5px;
     border: 2px solid crimson;
     transition: all 0.3s ease;
@@ -184,14 +186,12 @@ ul {
 .about,
 .services,
 .skills,
-.teams,
-.contact {
+.teams {
     font-family: 'poppins', sans-serif;
-    margin: 50px 0 80px 0;
 }
 
 section {
-    padding: 80px 0;
+    padding: 30px 0;
 }
 
 section .title {
@@ -242,17 +242,18 @@ section .title::after {
 }
 
 .about-content .row .col-lg-5 .my-photo img {
-    height: 100%;
+    height: 70%;
     width: 100%;
+    margin-top: 55px;
     border-radius: 10px;
 }
 
-.about-content .row .col-lg-7 .my-details {
-    margin-top: 50px;
-}
+/* .about-content .row .col-lg-7 .my-details {
+    margin-top: 0px;
+} */
 
 .my-details {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .my-details .text {
@@ -290,19 +291,21 @@ section .title::after {
 
 /* SERVICES  */
 .services,
-.teams {
+.contact {
     color: white;
     background: black;
 }
 
 .services .title::before,
-.teams .title::before {
+.work .title::before,
+.contact .title::before {
     background: white;
     width: 220px;
 }
 
 .services .title::after,
-.teams .title::after {
+.work .title::after,
+.contact .title::after {
     background: black;
     content: 'What I provide';
 }
@@ -356,6 +359,7 @@ section .title::after {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
+    margin-top: 15px;
     font-family: 'poppins', sans-serif;
 }
 
@@ -413,11 +417,11 @@ section .title::after {
 }
 
 .skill .skills-content .right .html::before {
-    width: 80%;
+    width: 90%;
 }
 
 .skill .skills-content .right .css::before {
-    width: 60%;
+    width: 90%;
 }
 
 .skill .skills-content .right .js::before {
@@ -425,14 +429,106 @@ section .title::after {
 }
 
 .skill .skills-content .right .jquery::before {
-    width: 40%;
+    width: 80%;
 }
 
 .skill .skills-content .right .bootstrap::before {
-    width: 20%;
+    width: 80%;
 }
 
 /* SKILLS */
+
+/* WORKS  */
+.work {
+    background-color: black;
+}
+
+.work .title::after {
+    content: "What I did";
+}
+
+.work .works-content .left .text {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: 'poppins', sans-serif;
+    color: crimson;
+}
+
+.work .works-content .left p {
+    font-family: 'poppins', sans-serif;
+    text-align: justify;
+    color: white;
+}
+
+.work .title {
+    color: white;
+}
+
+.works-content .left a {
+    display: inline-block;
+    background-color: crimson;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    border-radius: 5px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+}
+
+.works-content .left a:hover {
+    color: crimson;
+    background: none;
+}
+
+.work .works-content .right a{
+    color: white;
+}
+.work .works-content .right a:hover {
+    color: crimson;
+}
+
+.work .works-content .right .bars {
+    margin: 12px 0;
+    font-family: 'poppins', sans-serif;
+}
+
+.work .works-content .right .bars .info {
+    margin-bottom: 10px;
+}
+
+.work .works-content .right .info .row span {
+    font-weight: 500;
+    font-size: 18px;
+    color: white;
+}
+
+.work .works-content .right .line {
+    height: 5px;
+    width: 100%;
+    background-color: lightgray;
+    position: relative;
+}
+
+.work .works-content .right .line::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 80%;
+    left: 0;
+    top: 0;
+    background-color: rgb(186, 14, 60);
+}
+
+.work .works-content .right .html::before {
+    width: 100%;
+}
+
+
+
+/* WORKS  */
 
 
 /* TEAM  */
@@ -442,7 +538,7 @@ section .title::after {
 }
 
 .teams .carousell .cards {
-    background-color: rgb(82, 73, 73);
+    background-color: black;
     border-radius: 6px;
     padding: 25px 35px;
     text-align: center;
@@ -469,6 +565,11 @@ section .title::after {
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: white;
+}
+
+.teams .carousell .cards p {
+    color: white;
 }
 
 .teams .carousell .cards img {
@@ -548,7 +649,7 @@ section .title::after {
 }
 
 .contact-content .left .icons .row .info .sub-title {
-    color: rgb(63, 60, 60);
+    color: white;
 }
 
 .contact-content .right form .field {
@@ -601,9 +702,8 @@ section .title::after {
 /* FOOTER  */
 
 .footer {
-    background-color: #111;
     padding: 20px 23px;
-    color: white;
+    color: black;
 }
 
 .footer span a {
@@ -616,7 +716,7 @@ section .title::after {
 }
 
 .ftext {
-    margin-left: 30%;
+    text-align: center;
 }
 
 /* FOOTER  */
